@@ -1,0 +1,18 @@
+{
+    "ch_description": {
+        "Description": "Description of what is measured on this channel."
+    },
+    "signal_electrode": {
+        "Description": "Name of the signal electrode for this channel."
+    },
+    "group": {
+        "Description": "Electrode group identifier."
+    },
+    "target_muscle": {
+        "Description": "Name of the muscle targeted by this electrode."
+    },
+    "interelectrode_distance": {
+        "Description": "Distance between adjacent electrodes.",
+        "Units": "mm"
+    }
+}
