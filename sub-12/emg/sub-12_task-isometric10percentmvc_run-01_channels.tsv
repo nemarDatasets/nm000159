@@ -1,4 +1,4 @@
-name	type	units	description	sampling_frequency	signal_electrode	reference	group	target_muscle	interelectrode_distance	low_cutoff	high_cutoff	status
+name	type	units	ch_description	sampling_frequency	signal_electrode	reference	group	target_muscle	interelectrode_distance	low_cutoff	high_cutoff	status
 Ch01	EMG	mV	monopolar EMG	2048.0	E001	R1	Grid1	right vastus lateralis	8.0	500.0	20.0	n/a
 Ch02	EMG	mV	monopolar EMG	2048.0	E002	R1	Grid1	right vastus lateralis	8.0	500.0	20.0	n/a
 Ch03	EMG	mV	monopolar EMG	2048.0	E003	R1	Grid1	right vastus lateralis	8.0	500.0	20.0	n/a

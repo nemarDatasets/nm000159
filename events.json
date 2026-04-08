@@ -20,7 +20,7 @@
             "steady_isometric": "Steady isometric contraction at a fixed MVC level."
         }
     },
-    "description": {
+    "event_description": {
         "Description": "Free text event description."
     }
 }
