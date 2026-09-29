@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "MUniverse Avrillon et al 2024",
+  "description": "A BIDS-formatted high-density surface EMG (HDsEMG) dataset from 16 young volunteers performing submaximal (10-80% MVC) isometric contractions. Eight participants performed ankle dorsiflexions with recordings from the tibialis anterior, and eight performed knee extensions with recordings from the vastus lateralis. Signals were recorded with four 64-electrode arrays (256 electrodes in total) together with force, to support motor unit identification and the study of rate coding.",
+  "methods_description": "Surface EMG was recorded with four 2D arrays of 64 electrodes (4 mm spacing for the tibialis anterior, 8 mm for the vastus lateralis) using an EMG-Quattrocento amplifier. Force was recorded with a load cell on an ankle dynamometer or with force sensors on an instrumented chair. Participants performed isometric contractions at 10-80% of maximal voluntary contraction. Electrode coordinates were expressed in a common reference frame based on the first array. The data were converted to BIDS semi-automatically with the MUniverse software.",
+  "license": "CC0 BY 4.0",
+  "dataset_type": "raw",
   "authors": {
     "Simon Avrillon": {
       "orcid": "0000-0002-2226-3528"
@@ -12,6 +17,31 @@
       "orcid": "0000-0002-7883-2697"
     }
   },
+  "keywords": [
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "high-density surface EMG"
+    },
+    {
+      "term": "motor units"
+    },
+    {
+      "term": "isometric contraction"
+    },
+    {
+      "term": "tibialis anterior"
+    },
+    {
+      "term": "vastus lateralis"
+    },
+    {
+      "term": "rate coding"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.6084/m9.figshare.24640944",
@@ -21,7 +51,7 @@
     {
       "identifier": "10.7554/eLife.97085.3",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000159",
@@ -29,14 +59,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000159",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.7910/DVN/L9OQY7",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000159",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -69,16 +99,13 @@
       "award_number": "RG-2206-39688"
     }
   ],
-  "title": "MUniverse Avrillon et al 2024",
-  "license": "CC0 BY 4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EMG Dataset",
   "modalities": [
     "emg"
   ],
-  "resource_type_specific": "EMG Dataset",
   "sizes": [
-    "5.9 GB (125 files)"
+    "5.51 GB (125 files)"
   ],
   "formats": [
     ".edf",
@@ -86,32 +113,6 @@
     ".md",
     ".tsv",
     ".yml"
-  ],
-  "description": "High-density surface electromyography (HDsEMG) recordings from 16 young participants performing isometric ankle dorsiflexions or knee extensions at submaximal force levels (10-80% MVC). EMG signals were acquired using four 64-electrode arrays (256 total electrodes) positioned over the tibialis anterior or vastus lateralis muscles. This dataset enables investigation of motor unit recruitment and rate coding properties across diverse neuromodulatory inputs during sustained muscle contractions.",
-  "methods_description": "HDsEMG signals were recorded from either the tibialis anterior (TA) or vastus lateralis (VL) using four 2D electrode arrays (64 electrodes each; interelectrode spacing: 4 mm for TA, 8 mm for VL). Participants performed isometric contractions at 10-80% MVC. For ankle dorsiflexions, the foot was fixed to an ankle dynamometer; for knee extensions, participants sat on an instrumented chair with tibia against a rigid resistance. Force was recorded synchronously using load cells and the EMG-Quattrocento acquisition system.",
-  "keywords": [
-    {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
-    },
-    {
-      "term": "motor units"
-    },
-    {
-      "term": "Muscle Contraction",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009119"
-    },
-    {
-      "term": "isometric exercise"
-    },
-    {
-      "term": "high-density surface EMG"
-    },
-    {
-      "term": "motor control"
-    }
   ],
   "source_hash": "82435087f14eb6f8e900fc822febfa1f5deafc10020401c22c0ace40ff486ec9"
 }
